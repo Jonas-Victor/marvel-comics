@@ -1,0 +1,60 @@
+h1 {
+    margin: 3rem 0;
+    color: #fff;
+}
+
+.comics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgcomic {
+    width: 300px;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6rem;
+    max-width: 50%;
+    transition: 0.5s;
+}
+
+.buttonGoBack {
+    padding: 4rem;
+    background: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 100%;
+}
+
+.buttonGoBack:hover {
+    background: black;
+}
+
+.sinopse {
+    line-height: 130%;
+    margin-bottom: 1rem;
+    font-size: 110%;
+    color: #fff;
+}
+
+.release {
+    color: #fff;
+    line-height: 130%;
+    margin-bottom: 1rem;
+    font-size: 110%;
+    opacity: 0.5;
+}
+
+.container {
+    margin-top: 4rem;
+}

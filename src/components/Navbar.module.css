@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Navbar {
+    width: 80rem;
+    margin-top: 3.65rem;
+}
+
+.ulnavebar {
+    background: white;
+    list-style: none;
+    text-align: center;
+}
+
+.ulnavebar li {
+    display: inline;
+
+}
+
+.ulnavebar li a {
+    color: #202020;
+    padding: 5px 8px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 0.5rem;
+
+}
+
+.ulnavebar li a:hover {
+    color: white;
+    background-color: #8d2311;
+}
+
+
+.imgfundo img {
+    width: 80rem;
+    height: 32rem;
+
+}

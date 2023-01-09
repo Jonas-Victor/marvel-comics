@@ -1,0 +1,57 @@
+.Header {
+    height: 3.65rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #202020
+}
+
+.Header img {
+    display: flex;
+    justify-content: center;
+    width: 9rem;
+}
+
+/*Começou a editar o search -------------------------*/
+
+.SearchBox {
+    position: absolute;
+    top: 20%;
+    left: 83%;
+    width: 12, 5rem;
+
+}
+
+.SearchText {
+    color: #fff;
+    font-size: 1rem;
+    padding: 4px;
+    width: 8rem;
+    border-radius: 3px;
+    border: none;
+    color: red;
+}
+
+button {
+    margin: 3px;
+    border: none;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: red;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    transition: 1s;
+}
+
+i {
+    color: #fff;
+}
+
+i:hover {
+    transition: 1s;
+    color: red;
+}

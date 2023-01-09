@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    html{
+        font-size: 85.5%;
+    }
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+.wrapper{
+    background: black;
+}
